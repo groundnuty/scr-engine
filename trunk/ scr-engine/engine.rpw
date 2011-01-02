@@ -4,16 +4,16 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 		- size = 0;
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 2;
+		- size = 3;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
 				- m_nLeft = 44;
 				- m_nTop = 58;
@@ -29,8 +29,36 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _name = "Engine Use Case";
 				- _id = GUID 0c49548c-f954-439b-a9e3-8704ab5af158;
 			}
+			- _UpLeft = 0 70 ;
+			- _DownRight = 360 307 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 75;
+				- m_nTop = 75;
+				- m_nRight = 1194;
+				- m_nBottom = 388;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "Engine.sbs";
+				- _subsystem = "Engine";
+				- _class = "";
+				- _name = "Engine";
+				- _id = GUID 545e4a73-b791-46ad-9927-80e7951cacdf;
+			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1461 1173 ;
+			- _DownRight = 1223 417 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
@@ -41,7 +69,7 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
 				- m_nLeft = 110;
 				- m_nTop = 145;
@@ -58,12 +86,12 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _id = GUID 0e0ec122-fa67-405f-9b09-69dd18d13250;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 2772 1216 ;
+			- _DownRight = 2854 1250 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- m_nDiagramIndex = 2;
 		}
 	}
-	- _fullName = "C:\\scr\\projekt\\engine\\engine";
+	- _fullName = "C:\\work\\scr\\scr-engine\\ scr-engine\\engine";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
