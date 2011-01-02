@@ -3,8 +3,9 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 	- _id = GUID 11f35ac8-1c60-4547-8bea-4448a755168c;
 	- _myState = 8192;
 	- _name = "Default";
-	- weakCGTime = 1.2.2011::16:0:7;
-	- strongCGTime = 1.1.1970::1:0:0;
+	- _lastID = 8;
+	- weakCGTime = 1.2.2011::21:46:47;
+	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 10eee61f-e1e6-48ed-91bd-9d52f6dfb47d;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -14,8 +15,8 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 			- _id = GUID 10eee61f-e1e6-48ed-91bd-9d52f6dfb47d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- weakCGTime = 1.2.2011::21:41:40;
+			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -23,6 +24,283 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 1.1.1970::1:0:0;
+	- UseCases = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IUseCase 
+			- _id = GUID 1a574265-e047-40f1-acff-8fa197fd19ac;
+			- _myState = 8192;
+			- _name = "Start Engine";
+			- Dependencies = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IDependency 
+					- _id = GUID cd0bedc0-e397-415a-9eed-e985fae87f3e;
+					- _myState = 2048;
+					- _name = "Speed Up";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID f8c304ae-0fd3-41ee-a8af-0c165e024981;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 6aa75eb9-d261-45a9-8ac7-8e797c1fea0a;
+					- _myState = 2048;
+					- _name = "Change fuel input rate";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a1ca8f54-975a-48f0-822e-17ce9b7d7cbb;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 332b4e2c-de2e-4159-b08d-aa3357d1e40b;
+					- _myState = 2048;
+					- _name = "Suplly power for first cycle";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID d391117f-8d85-403b-aa41-129e5f393761;
+					}
+				}
+			}
+			- _lastID = 3;
+			- weakCGTime = 1.2.2011::21:49:10;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 9018bc3f-0b8d-4b25-8bb9-42a989bf704a;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a1ca8f54-975a-48f0-822e-17ce9b7d7cbb;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 2a5a7ad1-ecb2-4672-983e-13c249d481c9;
+			- _myState = 8192;
+			- _name = "Stop Engine";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 4ff29374-eba8-4378-8f8b-22b5f76b1806;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a1ca8f54-975a-48f0-822e-17ce9b7d7cbb;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID f8c304ae-0fd3-41ee-a8af-0c165e024981;
+			- _myState = 8192;
+			- _name = "Speed Up";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 9a2e54ce-dad3-4a33-8807-96ef86829ea0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a1ca8f54-975a-48f0-822e-17ce9b7d7cbb;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID f568718f-5705-4ce3-822f-1ff4e3fe9818;
+			- _myState = 8192;
+			- _name = "Slow down";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 1a8e99e8-b54c-4d7e-ac1a-09d8788ff56a;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a1ca8f54-975a-48f0-822e-17ce9b7d7cbb;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID a1ca8f54-975a-48f0-822e-17ce9b7d7cbb;
+			- _myState = 8192;
+			- _name = "Change fuel input rate";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 5a68983c-93d2-4c9d-90ab-fe0d04bca240;
+			- _myState = 8192;
+			- _name = "Decrease fuel input";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID d391117f-8d85-403b-aa41-129e5f393761;
+			- _myState = 8192;
+			- _name = "Suplly power for first cycle";
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IActor 
+			- _id = GUID a76dc546-2c74-449a-b0fb-3f18cc0763a8;
+			- _myState = 8192;
+			- _name = "Driver";
+			- Dependencies = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IDependency 
+					- _id = GUID 51f35312-1d93-4f53-ab8f-6c04006b3527;
+					- _myState = 2048;
+					- _name = "Start Engine";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 1a574265-e047-40f1-acff-8fa197fd19ac;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 323a0a7e-0c7d-4b89-b1d0-f3efd82e14eb;
+					- _myState = 2048;
+					- _name = "Speed Up";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID f8c304ae-0fd3-41ee-a8af-0c165e024981;
+					}
+				}
+				{ IDependency 
+					- _id = GUID d4715ffb-8b9d-432f-8d58-32663e49a1af;
+					- _myState = 2048;
+					- _name = "Slow down";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID f568718f-5705-4ce3-822f-1ff4e3fe9818;
+					}
+				}
+				{ IDependency 
+					- _id = GUID f404d9ce-68ab-4a63-b5a6-b3bbd24dd6be;
+					- _myState = 2048;
+					- _name = "Stop Engine";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 2a5a7ad1-ecb2-4672-983e-13c249d481c9;
+					}
+				}
+			}
+			- _lastID = 4;
+			- weakCGTime = 1.2.2011::21:45:43;
+			- strongCGTime = 1.2.2011::21:38:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
 }
 
