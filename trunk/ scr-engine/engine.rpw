@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 		- size = 0;
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 6;
+		- size = 5;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -32,34 +32,6 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 			- _UpLeft = 0 70 ;
 			- _DownRight = 360 307 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 4;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 75;
-				- m_nTop = 75;
-				- m_nRight = 1194;
-				- m_nBottom = 388;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "Engine.sbs";
-				- _subsystem = "Engine";
-				- _class = "";
-				- _name = "Engine";
-				- _id = GUID 545e4a73-b791-46ad-9927-80e7951cacdf;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1223 417 ;
-			- _instanceName = "";
 			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
@@ -85,10 +57,10 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _name = "Model";
 				- _id = GUID 0e0ec122-fa67-405f-9b09-69dd18d13250;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 685 300 ;
+			- _UpLeft = 0 10 ;
+			- _DownRight = 685 310 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 5;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -113,8 +85,8 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _name = "StatechartDiagram";
 				- _id = GUID 798035b4-f9ae-4b5f-a506-d81ebcab5d41;
 			}
-			- _UpLeft = 0 20 ;
-			- _DownRight = 1076 564 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1556 826 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
@@ -141,8 +113,8 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _name = "StatechartDiagram";
 				- _id = GUID 113bd1d2-e34e-4c72-a1be-7aa1a0a8055f;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 885 331 ;
+			- _UpLeft = 0 50 ;
+			- _DownRight = 885 381 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 1;
 		}
@@ -169,13 +141,13 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _name = "StatechartDiagram";
 				- _id = GUID e0935042-d340-4cd0-a4d6-a29e5ea70242;
 			}
-			- _UpLeft = 0 10 ;
-			- _DownRight = 885 341 ;
+			- _UpLeft = 0 40 ;
+			- _DownRight = 885 371 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
 	}
-	- _fullName = "C:\\work\\scr\\scr-engine\\ scr-engine\\engine";
+	- _fullName = "C:\\work\\scr\\scr-engine\\scr-engine\\engine";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
