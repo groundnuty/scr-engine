@@ -1,11 +1,12 @@
 I-Logix-RPY-Archive version 8.5.2 * 2030848
 
 - filesTable = { IRPYRawContainer 
-	- size = 4;
+	- size = 5;
 	- value = "engine.rpy" ""
 	"engine_rpy\\Default.sbs" "Default"
 	"engine_rpy\\Engine.sbs" "Engine"
 	"engine_rpy\\Release.cmp" "Release"
+	"engine_rpy\\engine_1.sbs" "engine"
 	
 }
 
