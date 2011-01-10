@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.5.2 C++ 2030848
+I-Logix-RPY-Archive version 8.5.2 Java 1471822
 { ISubsystem 
 	- _id = GUID ee52120d-e340-456e-99d7-703647ccdd12;
 	- _myState = 8192;
@@ -12,8 +12,8 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 		- _id = GUID 0e0ec122-fa67-405f-9b09-69dd18d13250;
 	}
 	- _lastID = 14;
-	- weakCGTime = 1.9.2011::1:57:6;
-	- strongCGTime = 1.8.2011::19:42:36;
+	- weakCGTime = 1.10.2011::11:51:4;
+	- strongCGTime = 1.10.2011::11:18:36;
 	- _defaultComposite = GUID 20adc6cb-cdde-4182-a745-f14975533daf;
 	- _eventsBaseID = 2801;
 	- Classes = { IRPYRawContainer 
@@ -23,11 +23,67 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 			- _id = GUID 20adc6cb-cdde-4182-a745-f14975533daf;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- weakCGTime = 1.9.2011::0:45:23;
-			- strongCGTime = 1.8.2011::19:42:36;
+			- weakCGTime = 1.10.2011::11:18:36;
+			- strongCGTime = 1.10.2011::11:18:36;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IPart 
+					- _id = GUID fbb0c37e-eb7c-41bd-93b9-15cf64a3f825;
+					- _myState = 8192;
+					- _name = "itsEngine";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 80bb3edc-9c31-4032-a9d6-bee7eba3381c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID a779251d-ee16-4fa2-baf9-76e0b3042186;
+					- _myState = 8192;
+					- _name = "itsSparkPlug";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a26a9003-11fb-4f3e-b32c-c8dc0fc33dbe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 278d4adb-a5e1-458f-b83e-0f96df03ba20;
+					- _myState = 8192;
+					- _name = "itsFuelInjector";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c0f6981b-ae2b-42fd-bbf2-6acff2bc4e5f;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID a68de0da-200b-4def-a92d-671017d9e50a;
+					- _myState = 8192;
+					- _name = "itsThrottle";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b8abb1da-6474-447e-8106-6bfbddd67f09;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
 			}
 			- _classModifier = Unspecified;
 		}
@@ -44,7 +100,7 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 				- _id = GUID 0e0ec122-fa67-405f-9b09-69dd18d13250;
 			}
 			- _lastID = 11;
-			- weakCGTime = 1.9.2011::2:1:35;
+			- weakCGTime = 1.10.2011::11:52:44;
 			- strongCGTime = 1.8.2011::23:44:10;
 			- Operations = { IRPYRawContainer 
 				- size = 10;
@@ -296,7 +352,7 @@ itsSparkPlug.setSparkDelay(0);";
 					- _myState = 10240;
 					- _name = "statechart_7";
 					- _lastID = 5;
-					- weakCGTime = 1.9.2011::1:59:49;
+					- weakCGTime = 1.10.2011::11:21:42;
 					- strongCGTime = 1.8.2011::23:44:10;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -1379,7 +1435,7 @@ this.calculateOpeningDuration();";
 					- _myState = 10240;
 					- _name = "statechart_4";
 					- _lastID = 4;
-					- weakCGTime = 1.9.2011::0:25:59;
+					- weakCGTime = 1.9.2011::1:49:1;
 					- strongCGTime = 1.9.2011::0:3:37;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -2184,7 +2240,7 @@ close();";
 					- _myState = 10240;
 					- _name = "statechart_2";
 					- _lastID = 4;
-					- weakCGTime = 1.9.2011::1:54:55;
+					- weakCGTime = 1.9.2011::1:55:4;
 					- strongCGTime = 1.9.2011::0:32:4;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -2944,6 +3000,6 @@ close();";
 			}
 		}
 	}
-	- _configurationRelatedTime = 1.9.2011::1:49:20;
+	- _configurationRelatedTime = 1.10.2011::11:18:36;
 }
 
