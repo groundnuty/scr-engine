@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.5.2 C++ 2030848
+I-Logix-RPY-Archive version 8.5.2 C++ 1471822
 { IProject 
 	- _id = GUID 13f0dea6-0a23-4ab3-86de-618bc08a2f29;
 	- _myState = 8192;
@@ -1455,7 +1455,7 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 				}
 			}
 			- _name = "Engine Use Case";
-			- _lastModifiedTime = "1.9.2011::1:52:32";
+			- _lastModifiedTime = "1.10.2011::10:35:41";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 946b912e-85dd-48ea-856a-d0a78be56c58;
 				- m_type = 0;
@@ -2676,12 +2676,8 @@ I-Logix-RPY-Archive version 8.5.2 C++ 2030848
 					- _id = GUID 30517bad-86e0-4133-9e05-1ceb01b8973e;
 					- m_type = 215;
 					- m_pModelObject = { IHandle 
-						- _m2Class = "ISubsystem";
-						- _filename = "Default.sbs";
-						- _subsystem = "";
-						- _class = "";
-						- _name = "Default";
-						- _id = GUID 11f35ac8-1c60-4547-8bea-4448a755168c;
+						- _m2Class = "IProject";
+						- _id = GUID 13f0dea6-0a23-4ab3-86de-618bc08a2f29;
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
