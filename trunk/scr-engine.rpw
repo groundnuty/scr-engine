@@ -4,8 +4,36 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 		- size = 0;
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 4;
+		- size = 6;
 		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 175;
+				- m_nTop = 175;
+				- m_nRight = 1097;
+				- m_nBottom = 574;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IUCDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Engine Use Case";
+				- _id = GUID 7f4b5b3a-4f71-48f7-b598-31e0c586c392;
+			}
+			- _UpLeft = 0 30 ;
+			- _DownRight = 885 370 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
@@ -32,7 +60,7 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 			- _UpLeft = 0 20 ;
 			- _DownRight = 885 360 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 2;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -60,7 +88,7 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 			- _UpLeft = -51 -29 ;
 			- _DownRight = 834 311 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -88,13 +116,41 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 			- _UpLeft = 0 20 ;
 			- _DownRight = 95 344 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
 				- m_nFlags = 2;
 				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 0;
+				- m_nTop = 0;
+				- m_nRight = 922;
+				- m_nBottom = 399;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IPanelDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "EngineControl";
+				- _id = GUID af46ad78-c6b8-42af-96de-0afcd2b5564b;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1076 553 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -114,9 +170,9 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _id = GUID 4e467583-4f1c-41f5-b91b-3066df3a5cc7;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1076 553 ;
+			- _DownRight = 885 340 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 3;
+			- m_nDiagramIndex = 5;
 		}
 	}
 	- _fullName = "C:\\work\\scr\\SCR\\scr-engine\\scr-engine";
