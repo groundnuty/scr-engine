@@ -3,8 +3,9 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 	- _id = GUID cce4d87b-2fb8-482c-bf7f-2fab5f6527a1;
 	- _myState = 8192;
 	- _name = "Default";
-	- weakCGTime = 1.14.2011::21:22:37;
-	- strongCGTime = 1.1.1970::1:0:0;
+	- _lastID = 4;
+	- weakCGTime = 1.14.2011::21:47:1;
+	- strongCGTime = 1.14.2011::21:47:1;
 	- _defaultComposite = GUID 403ee7cf-a0fd-482d-8b6d-f6b90977ee3e;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -23,6 +24,6 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 1.1.1970::1:0:0;
+	- _configurationRelatedTime = 1.14.2011::21:45:27;
 }
 

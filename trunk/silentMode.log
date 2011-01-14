@@ -1,0 +1,19 @@
+01, 14, 2011 (23:15:18): Could not resolve Handle GUID e256af82-348c-4199-bb1b-87b881cce62e
+01, 14, 2011 (23:15:18): Could not resolve Handle GUID e256af82-348c-4199-bb1b-87b881cce62e
+01, 14, 2011 (23:15:18): Could not resolve Handle GUID e256af82-348c-4199-bb1b-87b881cce62e
+01, 14, 2011 (23:15:18): Could not resolve Handle GUID b9589466-d69c-4814-9666-18a62a6fa0b5
+01, 14, 2011 (23:15:18): UR named: engine, of type ISubsystem, and ID: 00000000-0000-0000-0000-000000000000 was created. Owned by the scr-engine Project.
+01, 14, 2011 (23:15:18): UR named: topPointAchieved(unsigned short), of type IEvent, and ID: e683761d-09bf-4423-840b-eea55cc62272 was created. Owned by the engine Package.
+01, 14, 2011 (23:16:39): Could not resolve Handle GUID a88b55ee-2aba-448c-9621-bd1e80af65dc
+01, 14, 2011 (23:16:39): Could not resolve Handle GUID a88b55ee-2aba-448c-9621-bd1e80af65dc
+01, 14, 2011 (23:16:39): Could not resolve Handle GUID a88b55ee-2aba-448c-9621-bd1e80af65dc
+01, 14, 2011 (23:16:39): Could not resolve Handle GUID 82764b85-328a-4fb5-81a7-4c7afd035be1
+01, 14, 2011 (23:17:39): Could not resolve Handle GUID b6ddd7ea-929a-46ca-933f-95353618ecaa
+01, 14, 2011 (23:17:39): Could not resolve Handle GUID b6ddd7ea-929a-46ca-933f-95353618ecaa
+01, 14, 2011 (23:17:39): Could not resolve Handle GUID b6ddd7ea-929a-46ca-933f-95353618ecaa
+01, 14, 2011 (23:17:39): Could not resolve Handle GUID 45248ed0-fc10-48c8-bed5-512e0a75b0f5
+01, 14, 2011 (23:17:39): UR named: pressingChanged(int), of type IEvent, and ID: 095ab67c-0325-4625-95ad-229a2137965f was created. Owned by the engine Package.
+01, 14, 2011 (23:17:39): UR named: temperatureChanged(float), of type IEvent, and ID: 1be9cff7-9dcc-4c47-9a6e-1a0b8cbc7ccb was created. Owned by the engine Package.
+01, 14, 2011 (23:17:39): UR named: rotationSpeedChanged(int), of type IEvent, and ID: aeeae767-3919-41d7-b4d7-f21bc9f5133a was created. Owned by the engine Package.
+01, 14, 2011 (23:17:39): UR named: engineStopped(), of type IEvent, and ID: 1fa7374f-bb91-4f31-b623-4dc97576eaea was created. Owned by the engine Package.
+01, 14, 2011 (23:17:39): UR named: engineStarted(), of type IEvent, and ID: 17de2693-70d8-4cfa-b736-716854632381 was created. Owned by the engine Package.
