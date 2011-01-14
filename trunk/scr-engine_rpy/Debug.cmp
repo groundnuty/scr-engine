@@ -1,0 +1,126 @@
+I-Logix-RPY-Archive version 8.5.2 Java 2030848
+{ IComponent 
+	- _id = GUID 9c1665db-ad26-4300-9ef9-88674ca70282;
+	- _myState = 139264;
+	- _name = "Debug";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 3f69bb8f-0ec2-407b-b762-e7acab46a0fb;
+		- _myState = 73728;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 2a1b084c-831b-4d31-9f93-72e4ec8f97ad;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 2a1b084c-831b-4d31-9f93-72e4ec8f97ad;
+			- _myState = 8192;
+			- _name = "Debug";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID c186882c-4e31-4d4b-a11c-2af95be7912b;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:/work/scr/SCR/scr-engine/DefaultComponent/DefaultConfig/DefaultComponent.bat";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 3debe251-aba7-42fc-9759-f0922e36988f;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:/work/scr/SCR/scr-engine/DefaultComponent/DefaultConfig/MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 2adbf023-1b22-44c1-8498-7ed3ab11e94e;
+				- _myState = 8192;
+				- _name = "Debug";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.14.2011::21:24:12;
+			- strongCGTime = 1.14.2011::21:24:12;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID cce4d87b-2fb8-482c-bf7f-2fab5f6527a1;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "JavaDocProfile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "JavaDocProfile";
+			- _id = GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 1.14.2011::21:24:12;
+	- strongCGTime = 1.14.2011::21:23:5;
+}
+
