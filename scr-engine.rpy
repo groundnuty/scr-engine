@@ -1362,7 +1362,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 			}
 			- _name = "Engine Use Case";
-			- _lastModifiedTime = "1.14.2011::22:34:0";
+			- _lastModifiedTime = "1.15.2011::11:35:44";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d193d115-a9ea-48a4-893f-22c89907550b;
 				- m_type = 0;
@@ -2599,7 +2599,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 			}
 			- _name = "EngineControl";
-			- _lastModifiedTime = "1.14.2011::22:35:22";
+			- _lastModifiedTime = "1.15.2011::11:26:32";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID dca35c6c-7507-497a-bacf-7b99e80cee47;
 				- m_type = 0;
@@ -2623,7 +2623,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 9;
+				- elementList = 10;
 				{ CGIBox 
 					- _id = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
 					- m_type = 215;
@@ -2726,7 +2726,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000485531 0 0 0.00043576 85 36.4855 ;
+					- m_transform = 0.000485531 0 0 0.00043576 87 53.4855 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -2817,7 +2817,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.00252476 0 0 0.000610064 76 145.68 ;
+					- m_transform = 0.00252476 0 0 0.000610064 75 146.68 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3070,7 +3070,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 299 82.1262 ;
+					- m_transform = 0.000126238 0 0 0.000113298 288 70.1262 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3303,6 +3303,39 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						}
 					}
 					- m_csButtonCaption = "BUUUm";
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID e3cb4e14-1f1e-477c-a895-9e07add35499;
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000971062 0 0 0.00043576 171 462.485 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- m_csModelObjPath = "";
+					- m_csName = "pushbutton_1";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csButtonCaption = "Push";
 				}
 				
 				- m_access = 'Z';

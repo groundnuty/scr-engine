@@ -4,7 +4,148 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 		- size = 0;
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 0;
+		- size = 5;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 25;
+				- m_nTop = 25;
+				- m_nRight = 947;
+				- m_nBottom = 424;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Engine.sbs";
+				- _subsystem = "Engine";
+				- _class = "Engine";
+				- _name = "StatechartDiagram";
+				- _id = GUID 684f594d-9603-4083-ba6a-511819f8108c;
+			}
+			- _UpLeft = 0 140 ;
+			- _DownRight = 885 480 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 75;
+				- m_nTop = 75;
+				- m_nRight = 997;
+				- m_nBottom = 474;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Engine.sbs";
+				- _subsystem = "Engine";
+				- _class = "FuelInjector";
+				- _name = "StatechartDiagram";
+				- _id = GUID dcd977c4-c93b-49e1-824f-c9aaa5244c1f;
+			}
+			- _UpLeft = -51 -29 ;
+			- _DownRight = 834 311 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 100;
+				- m_nTop = 100;
+				- m_nRight = 1072;
+				- m_nBottom = 375;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Engine.sbs";
+				- _subsystem = "Engine";
+				- _class = "SparkPlug";
+				- _name = "StatechartDiagram";
+				- _id = GUID 34810f04-e7fa-43c3-b544-88de48ff5366;
+			}
+			- _UpLeft = 0 20 ;
+			- _DownRight = 935 236 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 50;
+				- m_nTop = 50;
+				- m_nRight = 972;
+				- m_nBottom = 449;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IPanelDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "EngineControl";
+				- _id = GUID af46ad78-c6b8-42af-96de-0afcd2b5564b;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1076 379 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 125;
+				- m_nTop = 125;
+				- m_nRight = 1097;
+				- m_nBottom = 400;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model";
+				- _id = GUID 4e467583-4f1c-41f5-b91b-3066df3a5cc7;
+			}
+			- _UpLeft = 0 20 ;
+			- _DownRight = 935 236 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
 	}
 	- _fullName = "C:\\work\\scr\\SCR\\scr-engine\\scr-engine";
 	- m_SearchScopeList = { IRPYRawContainer 
