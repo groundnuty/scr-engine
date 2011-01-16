@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.5.2 Java 1471822
+I-Logix-RPY-Archive version 8.5.2 Java 2030848
 { IProject 
 	- _id = GUID 091d9137-4a2a-46bd-ad3f-24f52771611f;
 	- _myState = 8192;
@@ -49,7 +49,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 2;
+		- size = 3;
 		- value = 
 		{ IProfile 
 			- fileName = "JavaDocProfile";
@@ -60,6 +60,10 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 		{ ISubsystem 
 			- fileName = "Engine";
 			- _id = GUID 3f8cd4a7-45a4-4b1c-aec0-4def943c5e34;
+		}
+		{ IProfile 
+			- fileName = "CGCompatibilityPre753Java";
+			- _id = GUID 1a373eb2-7fe0-464e-80c5-32bbc6b2649c;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
@@ -255,7 +259,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "Model";
-			- _lastModifiedTime = "1.16.2011::20:49:20";
+			- _lastModifiedTime = "1.16.2011::21:3:51";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID aa167807-2d0c-4983-bdba-db3f0ac4dc5e;
 				- m_type = 0;
@@ -829,7 +833,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- size = 0;
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 7;
+						- size = 6;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -876,16 +880,8 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 							- _filename = "Engine.sbs";
 							- _subsystem = "Engine";
 							- _class = "Engine";
-							- _name = "pressingChanged()";
-							- _id = GUID 494be390-e304-4875-8234-4575c2c4649a;
-						}
-						{ IHandle 
-							- _m2Class = "IReception";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "Engine";
-							- _name = "rotoationChanged()";
-							- _id = GUID 18262e32-e011-400d-a27b-ef934a3c867b;
+							- _name = "conditionChanged()";
+							- _id = GUID 8d663350-6ed3-4aa0-a5ff-f6b8342060d0;
 						}
 					}
 					- m_multiplicity = { CGIText 
@@ -1717,7 +1713,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "Engine Use Case";
-			- _lastModifiedTime = "1.16.2011::20:57:23";
+			- _lastModifiedTime = "1.16.2011::21:7:15";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d193d115-a9ea-48a4-893f-22c89907550b;
 				- m_type = 0;
@@ -2954,7 +2950,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "EngineControl";
-			- _lastModifiedTime = "1.16.2011::19:57:16";
+			- _lastModifiedTime = "1.16.2011::21:7:22";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID dca35c6c-7507-497a-bacf-7b99e80cee47;
 				- m_type = 0;
@@ -2983,8 +2979,12 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 					- _id = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
 					- m_type = 215;
 					- m_pModelObject = { IHandle 
-						- _m2Class = "IProject";
-						- _id = GUID 091d9137-4a2a-46bd-ad3f-24f52771611f;
+						- _m2Class = "ISubsystem";
+						- _filename = "Engine.sbs";
+						- _subsystem = "";
+						- _class = "";
+						- _name = "Engine";
+						- _id = GUID 3f8cd4a7-45a4-4b1c-aec0-4def943c5e34;
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
@@ -3659,11 +3659,16 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 					- _id = GUID e3cb4e14-1f1e-477c-a895-9e07add35499;
 					- m_type = 227;
 					- m_pModelObject = { IHandle 
-						- _m2Class = "";
+						- _m2Class = "IReception";
+						- _filename = "Engine.sbs";
+						- _subsystem = "Engine";
+						- _class = "Engine";
+						- _name = "conditionChanged()";
+						- _id = GUID 8d663350-6ed3-4aa0-a5ff-f6b8342060d0;
 					}
 					- m_pParent = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
 					- m_name = { CGIText 
-						- m_str = "pushbutton_1";
+						- m_str = "kupowaty button";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -3681,10 +3686,19 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
-					- m_csModelObjPath = "";
-					- m_csName = "pushbutton_1";
+					- m_csModelObjPath = "Engine.Engine[0].conditionChanged";
+					- m_csName = "kupowaty button";
 					- m_PartsArray = { IRPYRawContainer 
-						- size = 0;
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "";
+							- _name = "Engine";
+							- _id = GUID 132bbed0-50dd-4c67-8b18-c1c61751a8e1;
+						}
 					}
 					- m_csButtonCaption = "Push";
 				}
