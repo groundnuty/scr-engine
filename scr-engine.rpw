@@ -5,43 +5,15 @@ I-Logix-RPY-Archive version 8.5.2 * 1471822
 		- value = GUID 1a373eb2-7fe0-464e-80c5-32bbc6b2649c; 
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 6;
+		- size = 5;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
 				- m_nFlags = 0;
 				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 100;
-				- m_nTop = 100;
-				- m_nRight = 854;
-				- m_nBottom = 422;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "Engine.sbs";
-				- _subsystem = "Engine";
-				- _class = "";
-				- _name = "Engine Class Diagram";
-				- _id = GUID 13f476e9-9ceb-47f5-b721-d237c7a6287f;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 717 263 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 0;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
+				- m_ptMinPositionX = 0;
+				- m_ptMinPositionY = 406;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
 				- m_nLeft = 25;
@@ -58,10 +30,10 @@ I-Logix-RPY-Archive version 8.5.2 * 1471822
 				- _name = "StatechartDiagram";
 				- _id = GUID 684f594d-9603-4083-ba6a-511819f8108c;
 			}
-			- _UpLeft = 0 125 ;
-			- _DownRight = 1066 534 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 2458 944 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 5;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -87,9 +59,9 @@ I-Logix-RPY-Archive version 8.5.2 * 1471822
 				- _id = GUID dcd977c4-c93b-49e1-824f-c9aaa5244c1f;
 			}
 			- _UpLeft = 0 -29 ;
-			- _DownRight = 885 311 ;
+			- _DownRight = 782 272 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 3;
+			- m_nDiagramIndex = 2;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -114,16 +86,16 @@ I-Logix-RPY-Archive version 8.5.2 * 1471822
 				- _name = "StatechartDiagram";
 				- _id = GUID 34810f04-e7fa-43c3-b544-88de48ff5366;
 			}
-			- _UpLeft = 0 130 ;
-			- _DownRight = 935 346 ;
+			- _UpLeft = 0 160 ;
+			- _DownRight = 935 376 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 1;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = 160;
 				- m_ptMinPositionY = 384;
 				- m_ptMaxPositionX = -8;
@@ -142,16 +114,16 @@ I-Logix-RPY-Archive version 8.5.2 * 1471822
 				- _name = "EngineControl";
 				- _id = GUID af46ad78-c6b8-42af-96de-0afcd2b5564b;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1091 424 ;
+			- _UpLeft = 0 18 ;
+			- _DownRight = 994 400 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 4;
+			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
 				- m_nFlags = 2;
-				- m_showCmd = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = 0;
 				- m_ptMinPositionY = 384;
 				- m_ptMaxPositionX = -8;
@@ -170,10 +142,10 @@ I-Logix-RPY-Archive version 8.5.2 * 1471822
 				- _name = "Model";
 				- _id = GUID 4e467583-4f1c-41f5-b91b-3066df3a5cc7;
 			}
-			- _UpLeft = 163 25 ;
-			- _DownRight = 1021 415 ;
+			- _UpLeft = 0 107 ;
+			- _DownRight = 1005 497 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- m_nDiagramIndex = 0;
 		}
 	}
 	- _fullName = "C:\\Users\\konrad\\Desktop\\scr\\scr-engine";
