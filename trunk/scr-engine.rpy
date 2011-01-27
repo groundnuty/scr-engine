@@ -259,7 +259,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "Model";
-			- _lastModifiedTime = "1.26.2011::22:30:48";
+			- _lastModifiedTime = "1.27.2011::13:30:48";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID aa167807-2d0c-4983-bdba-db3f0ac4dc5e;
 				- m_type = 0;
@@ -385,7 +385,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.863487 0 0 0.606429 81 1.05701 ;
+					- m_transform = 0.863487 0 0 0.606429 86 22.057 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -650,7 +650,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 7;
 					}
-					- m_arrow = 2 507 236  507 568  ;
+					- m_arrow = 2 512 257  512 589  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
@@ -1835,7 +1835,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "Engine Use Case";
-			- _lastModifiedTime = "1.26.2011::22:57:45";
+			- _lastModifiedTime = "1.27.2011::13:26:35";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d193d115-a9ea-48a4-893f-22c89907550b;
 				- m_type = 0;
@@ -3072,7 +3072,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "EngineControl";
-			- _lastModifiedTime = "1.26.2011::22:28:26";
+			- _lastModifiedTime = "1.27.2011::12:36:3";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID dca35c6c-7507-497a-bacf-7b99e80cee47;
 				- m_type = 0;
@@ -3096,7 +3096,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 12;
+				- elementList = 9;
 				{ CGIBox 
 					- _id = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
 					- m_type = 215;
@@ -3195,7 +3195,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000485531 0 0 0.00043576 87 53.4855 ;
+					- m_transform = 0.000485531 0 0 0.00043576 98 71.4855 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3565,13 +3565,14 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 							- m_bgColor = 0;
 							- m_bgFlag = 0;
 						}
-						- m_position = 1 0 0  ;
+						- m_position = 4 -6 -9  51 -9  51 9  -6 9  ;
 						- m_nIdent = 0;
 						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 282 34 ;
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 288 70.1262 ;
+					- m_transform = 0.000126238 0 0 0.000113298 415 94.1262 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3650,7 +3651,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.00157312 0 0 0.000278887 396 102.311 ;
+					- m_transform = 0.00157312 0 0 0.000278887 179 84.311 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3677,245 +3678,6 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 							- _id = GUID af5adf0a-720c-4d4e-84cc-51a768a9fc33;
 						}
 					}
-				}
-				{ CGIActiveX 
-					- _id = GUID d1e55e5c-f9aa-43d0-8761-86aeacdb4a27;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "DigitalDisplay";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 221;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _filename = "Engine.sbs";
-						- _subsystem = "Engine";
-						- _class = "SparkPlug";
-						- _name = "sparkDelay";
-						- _id = GUID 4e97b6fd-64c7-493d-9e9f-b00c229cde9a;
-					}
-					- m_pParent = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
-					- m_name = { CGIText 
-						- m_str = "Spark Delay";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.00157312 0 0 0.000278887 395 176.311 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- m_csModelObjPath = "Engine.EngineBuilder[0].itsSparkPlug[0].sparkDelay";
-					- m_csName = "Spark Delay";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "EngineBuilder";
-							- _name = "itsSparkPlug";
-							- _id = GUID 8a33168a-b8f8-4e2b-a12e-05a8207fb759;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "";
-							- _name = "EngineBuilder";
-							- _id = GUID af5adf0a-720c-4d4e-84cc-51a768a9fc33;
-						}
-					}
-				}
-				{ CGIMFCCtrl 
-					- _id = GUID a06a8a9f-5609-460d-8c0d-1e445c614de6;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "PanelDiagram";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "PushButton";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ButtonFont";
-												- _Value = "Arial 10 NoBold NoItalic";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 227;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IReception";
-						- _filename = "Engine.sbs";
-						- _subsystem = "Engine";
-						- _class = "FuelInjector";
-						- _name = "topPointAchived()";
-						- _id = GUID 34a628d4-05b1-406a-b391-1043ce7b9504;
-					}
-					- m_pParent = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
-					- m_name = { CGIText 
-						- m_str = "Achive Top Point";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.00116527 0 0 0.00043576 420 270.485 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- m_csModelObjPath = "Engine.EngineBuilder[0].itsFuelInjector.topPointAchived";
-					- m_csName = "Achive Top Point";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "EngineBuilder";
-							- _name = "itsFuelInjector";
-							- _id = GUID 40dd2104-4840-44d6-8399-360aac37be56;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "";
-							- _name = "EngineBuilder";
-							- _id = GUID af5adf0a-720c-4d4e-84cc-51a768a9fc33;
-						}
-					}
-					- m_csButtonCaption = "Wybuch mieszkanki";
-				}
-				{ CGIMFCCtrl 
-					- _id = GUID e3cb4e14-1f1e-477c-a895-9e07add35499;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "PanelDiagram";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "PushButton";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ButtonFont";
-												- _Value = "Arial 10 NoBold NoItalic";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 227;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IReception";
-						- _filename = "Engine.sbs";
-						- _subsystem = "Engine";
-						- _class = "Engine";
-						- _name = "conditionChanged()";
-						- _id = GUID 8d663350-6ed3-4aa0-a5ff-f6b8342060d0;
-					}
-					- m_pParent = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
-					- m_name = { CGIText 
-						- m_str = "zmiana parametrow";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.00152457 0 0 0.00043576 128 462.485 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- m_csModelObjPath = "Engine.EngineBuilder[0].itsEngine.conditionChanged";
-					- m_csName = "zmiana parametrow";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "EngineBuilder";
-							- _name = "itsEngine";
-							- _id = GUID 300889b3-33b8-48de-b16f-40a9aa74696b;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "";
-							- _name = "EngineBuilder";
-							- _id = GUID af5adf0a-720c-4d4e-84cc-51a768a9fc33;
-						}
-					}
-					- m_csButtonCaption = "Zmiana parametrow";
 				}
 				{ CGIMFCCtrl 
 					- _id = GUID d3618bc5-eb4f-4196-ad48-eca98c9ee920;
@@ -3969,7 +3731,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 640 128.485 ;
+					- m_transform = 0.000971062 0 0 0.00043576 367 162.485 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -4051,7 +3813,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 640 248.485 ;
+					- m_transform = 0.000971062 0 0 0.00043576 368 271.485 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
