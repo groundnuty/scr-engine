@@ -224,3 +224,37 @@
 01, 27, 2011 (13:34:10): UR named: Speed Up, of type IDependency, and ID: 323a0a7e-0c7d-4b89-b1d0-f3efd82e14eb was created. Owned by the Driver Actor.
 01, 27, 2011 (13:34:10): UR named: Slow down, of type IDependency, and ID: d4715ffb-8b9d-432f-8d58-32663e49a1af was created. Owned by the Driver Actor.
 01, 27, 2011 (13:34:10): UR named: Stop Engine, of type IDependency, and ID: f404d9ce-68ab-4a63-b5a6-b3bbd24dd6be was created. Owned by the Driver Actor.
+01, 29, 2011 (17:27:38): UR named: Default, of type ISubsystem, and ID: 00000000-0000-0000-0000-000000000000 was created. Owned by the scr-engine Project.
+01, 29, 2011 (17:27:38): UR named: Stop Engine, of type IUseCase, and ID: 2a5a7ad1-ecb2-4672-983e-13c249d481c9 was created. Owned by the Default Package.
+01, 29, 2011 (17:27:38): UR named: Speed Up, of type IUseCase, and ID: f8c304ae-0fd3-41ee-a8af-0c165e024981 was created. Owned by the Default Package.
+01, 29, 2011 (17:27:38): UR named: Slow down, of type IUseCase, and ID: f568718f-5705-4ce3-822f-1ff4e3fe9818 was created. Owned by the Default Package.
+01, 29, 2011 (17:27:38): UR named: Change fuel input rate, of type IUseCase, and ID: a1ca8f54-975a-48f0-822e-17ce9b7d7cbb was created. Owned by the Default Package.
+01, 29, 2011 (17:27:38): UR named: Start Engine, of type IUseCase, and ID: 1a574265-e047-40f1-acff-8fa197fd19ac was created. Owned by the Default Package.
+01, 29, 2011 (17:27:38): UR named: Suplly power for first cycle, of type IUseCase, and ID: d391117f-8d85-403b-aa41-129e5f393761 was created. Owned by the Default Package.
+01, 29, 2011 (17:27:38): UR named: Driver, of type IActor, and ID: a76dc546-2c74-449a-b0fb-3f18cc0763a8 was created. Owned by the Default Package.
+01, 29, 2011 (17:27:38): UR named: Change fuel input rate, of type IGeneralization, and ID: 9a2e54ce-dad3-4a33-8807-96ef86829ea0 was created. Owned by the Speed Up UseCase.
+01, 29, 2011 (17:27:38): UR named: Change fuel input rate, of type IGeneralization, and ID: 1a8e99e8-b54c-4d7e-ac1a-09d8788ff56a was created. Owned by the Slow down UseCase.
+01, 29, 2011 (17:27:38): UR named: Change fuel input rate, of type IGeneralization, and ID: 4ff29374-eba8-4378-8f8b-22b5f76b1806 was created. Owned by the Stop Engine UseCase.
+01, 29, 2011 (17:27:38): UR named: Change fuel input rate, of type IDependency, and ID: 6aa75eb9-d261-45a9-8ac7-8e797c1fea0a was created. Owned by the Start Engine UseCase.
+01, 29, 2011 (17:27:38): UR named: Suplly power for first cycle, of type IDependency, and ID: 332b4e2c-de2e-4159-b08d-aa3357d1e40b was created. Owned by the Start Engine UseCase.
+01, 29, 2011 (17:27:38): UR named: Start Engine, of type IDependency, and ID: 51f35312-1d93-4f53-ab8f-6c04006b3527 was created. Owned by the Driver Actor.
+01, 29, 2011 (17:27:38): UR named: Speed Up, of type IDependency, and ID: 323a0a7e-0c7d-4b89-b1d0-f3efd82e14eb was created. Owned by the Driver Actor.
+01, 29, 2011 (17:27:38): UR named: Slow down, of type IDependency, and ID: d4715ffb-8b9d-432f-8d58-32663e49a1af was created. Owned by the Driver Actor.
+01, 29, 2011 (17:27:38): UR named: Stop Engine, of type IDependency, and ID: f404d9ce-68ab-4a63-b5a6-b3bbd24dd6be was created. Owned by the Driver Actor.
+01, 30, 2011 (01:23:33): UR named: Default, of type ISubsystem, and ID: 00000000-0000-0000-0000-000000000000 was created. Owned by the scr-engine Project.
+01, 30, 2011 (01:23:33): UR named: Stop Engine, of type IUseCase, and ID: 2a5a7ad1-ecb2-4672-983e-13c249d481c9 was created. Owned by the Default Package.
+01, 30, 2011 (01:23:33): UR named: Speed Up, of type IUseCase, and ID: f8c304ae-0fd3-41ee-a8af-0c165e024981 was created. Owned by the Default Package.
+01, 30, 2011 (01:23:33): UR named: Slow down, of type IUseCase, and ID: f568718f-5705-4ce3-822f-1ff4e3fe9818 was created. Owned by the Default Package.
+01, 30, 2011 (01:23:33): UR named: Change fuel input rate, of type IUseCase, and ID: a1ca8f54-975a-48f0-822e-17ce9b7d7cbb was created. Owned by the Default Package.
+01, 30, 2011 (01:23:33): UR named: Start Engine, of type IUseCase, and ID: 1a574265-e047-40f1-acff-8fa197fd19ac was created. Owned by the Default Package.
+01, 30, 2011 (01:23:33): UR named: Suplly power for first cycle, of type IUseCase, and ID: d391117f-8d85-403b-aa41-129e5f393761 was created. Owned by the Default Package.
+01, 30, 2011 (01:23:33): UR named: Driver, of type IActor, and ID: a76dc546-2c74-449a-b0fb-3f18cc0763a8 was created. Owned by the Default Package.
+01, 30, 2011 (01:23:33): UR named: Change fuel input rate, of type IGeneralization, and ID: 9a2e54ce-dad3-4a33-8807-96ef86829ea0 was created. Owned by the Speed Up UseCase.
+01, 30, 2011 (01:23:33): UR named: Change fuel input rate, of type IGeneralization, and ID: 1a8e99e8-b54c-4d7e-ac1a-09d8788ff56a was created. Owned by the Slow down UseCase.
+01, 30, 2011 (01:23:33): UR named: Change fuel input rate, of type IGeneralization, and ID: 4ff29374-eba8-4378-8f8b-22b5f76b1806 was created. Owned by the Stop Engine UseCase.
+01, 30, 2011 (01:23:33): UR named: Change fuel input rate, of type IDependency, and ID: 6aa75eb9-d261-45a9-8ac7-8e797c1fea0a was created. Owned by the Start Engine UseCase.
+01, 30, 2011 (01:23:33): UR named: Suplly power for first cycle, of type IDependency, and ID: 332b4e2c-de2e-4159-b08d-aa3357d1e40b was created. Owned by the Start Engine UseCase.
+01, 30, 2011 (01:23:33): UR named: Start Engine, of type IDependency, and ID: 51f35312-1d93-4f53-ab8f-6c04006b3527 was created. Owned by the Driver Actor.
+01, 30, 2011 (01:23:33): UR named: Speed Up, of type IDependency, and ID: 323a0a7e-0c7d-4b89-b1d0-f3efd82e14eb was created. Owned by the Driver Actor.
+01, 30, 2011 (01:23:33): UR named: Slow down, of type IDependency, and ID: d4715ffb-8b9d-432f-8d58-32663e49a1af was created. Owned by the Driver Actor.
+01, 30, 2011 (01:23:33): UR named: Stop Engine, of type IDependency, and ID: f404d9ce-68ab-4a63-b5a6-b3bbd24dd6be was created. Owned by the Driver Actor.

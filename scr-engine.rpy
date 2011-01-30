@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.5.2 Java 1471822
+I-Logix-RPY-Archive version 8.5.2 Java 2030848
 { IProject 
 	- _id = GUID 091d9137-4a2a-46bd-ad3f-24f52771611f;
 	- _myState = 8192;
@@ -259,7 +259,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "Model";
-			- _lastModifiedTime = "1.27.2011::13:30:48";
+			- _lastModifiedTime = "1.30.2011::0:16:41";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID aa167807-2d0c-4983-bdba-db3f0ac4dc5e;
 				- m_type = 0;
@@ -1121,7 +1121,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 2;
+						- size = 3;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IAttribute";
@@ -1139,9 +1139,17 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 							- _name = "sparkDelay";
 							- _id = GUID 4e97b6fd-64c7-493d-9e9f-b00c229cde9a;
 						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "SparkPlug";
+							- _name = "sparkWait";
+							- _id = GUID 818e789d-54b8-4302-b776-98932fc6d692;
+						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 5;
+						- size = 6;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1168,20 +1176,28 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 							- _id = GUID e9c23d90-6a7b-41d1-805d-79729c179a42;
 						}
 						{ IHandle 
-							- _m2Class = "IReception";
-							- _filename = "Engine.sbs";
-							- _subsystem = "Engine";
-							- _class = "SparkPlug";
-							- _name = "topPointAchived()";
-							- _id = GUID 2fdbff96-b105-4f0d-b382-7f8dffef3ae2;
-						}
-						{ IHandle 
 							- _m2Class = "IConstructor";
 							- _filename = "Engine.sbs";
 							- _subsystem = "Engine";
 							- _class = "SparkPlug";
 							- _name = "SparkPlug()";
 							- _id = GUID 5677dd80-c247-41e9-b105-741d16c08c22;
+						}
+						{ IHandle 
+							- _m2Class = "IReception";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "SparkPlug";
+							- _name = "engineStarted()";
+							- _id = GUID 5f3c75d1-0c19-472f-be53-9c49eafce07a;
+						}
+						{ IHandle 
+							- _m2Class = "IReception";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "SparkPlug";
+							- _name = "engineStopped()";
+							- _id = GUID 746de3d9-b183-4598-ae6d-642206eec046;
 						}
 					}
 					- m_multiplicity = { CGIText 
@@ -1272,7 +1288,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 <frame name=AttributeListCompartment>
 <frame name=PrimitiveOperationListCompartment>";
 					- Attrs = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IAttribute";
@@ -1282,9 +1298,17 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 							- _name = "openingTime";
 							- _id = GUID 2555e3ab-b75a-426b-a8c6-3dfa9bcda4f3;
 						}
+						{ IHandle 
+							- _m2Class = "IAttribute";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "FuelInjector";
+							- _name = "delayTime";
+							- _id = GUID 390f51b0-8f99-447b-9353-97218a103438;
+						}
 					}
 					- Operations = { IRPYRawContainer 
-						- size = 4;
+						- size = 6;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IPrimitiveOperation";
@@ -1307,16 +1331,32 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 							- _filename = "Engine.sbs";
 							- _subsystem = "Engine";
 							- _class = "FuelInjector";
-							- _name = "setOpeningTime()";
+							- _name = "setOpeningTime(int)";
 							- _id = GUID 2f1891d3-65ca-485f-9ae1-144cbbb37d1b;
+						}
+						{ IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "FuelInjector";
+							- _name = "setDelayTime(int)";
+							- _id = GUID d19192d0-f85d-4093-a0c8-d48030d38ab1;
 						}
 						{ IHandle 
 							- _m2Class = "IReception";
 							- _filename = "Engine.sbs";
 							- _subsystem = "Engine";
 							- _class = "FuelInjector";
-							- _name = "topPointAchived()";
-							- _id = GUID 34a628d4-05b1-406a-b391-1043ce7b9504;
+							- _name = "engineStopped()";
+							- _id = GUID da650b57-79d9-4221-ada0-78696c1c136f;
+						}
+						{ IHandle 
+							- _m2Class = "IReception";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "FuelInjector";
+							- _name = "engineStarted()";
+							- _id = GUID 338e8a20-b35a-4765-8fb1-da5464dbdf86;
 						}
 					}
 					- m_multiplicity = { CGIText 
@@ -1609,9 +1649,6 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 			}
 		}
 	}
-	- MSCS = { IRPYRawContainer 
-		- size = 0;
-	}
 	- Components = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -1835,7 +1872,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "Engine Use Case";
-			- _lastModifiedTime = "1.27.2011::13:26:35";
+			- _lastModifiedTime = "1.30.2011::0:22:25";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d193d115-a9ea-48a4-893f-22c89907550b;
 				- m_type = 0;
@@ -3033,8 +3070,60 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 					{ IPropertySubject 
 						- _Name = "Format";
 						- Metaclasses = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "FreeText";
+								- Properties = { IRPYRawContainer 
+									- size = 9;
+									- value = 
+									{ IProperty 
+										- _Name = "Fill.Transparent_Fill";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Arial";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Height";
+										- _Value = "13";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "10";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "HorzAlign";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.Transparent";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Multiline";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+									{ IProperty 
+										- _Name = "VertAlign";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Wordbreak";
+										- _Value = "False";
+										- _Type = Bool;
+									}
+								}
+							}
 							{ IPropertyMetaclass 
 								- _Name = "PushButton";
 								- Properties = { IRPYRawContainer 
@@ -3072,7 +3161,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 			}
 			- _name = "EngineControl";
-			- _lastModifiedTime = "1.27.2011::12:36:3";
+			- _lastModifiedTime = "1.30.2011::0:22:37";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID dca35c6c-7507-497a-bacf-7b99e80cee47;
 				- m_type = 0;
@@ -3096,13 +3185,17 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 9;
+				- elementList = 10;
 				{ CGIBox 
 					- _id = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
 					- m_type = 215;
 					- m_pModelObject = { IHandle 
-						- _m2Class = "IProject";
-						- _id = GUID 091d9137-4a2a-46bd-ad3f-24f52771611f;
+						- _m2Class = "ISubsystem";
+						- _filename = "Engine.sbs";
+						- _subsystem = "";
+						- _class = "";
+						- _name = "Engine";
+						- _id = GUID 3f8cd4a7-45a4-4b1c-aec0-4def943c5e34;
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
@@ -3195,7 +3288,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000485531 0 0 0.00043576 98 71.4855 ;
+					- m_transform = 0.000485531 0 0 0.00043576 98 144.486 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3294,7 +3387,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.00252476 0 0 0.000610064 75 146.68 ;
+					- m_transform = 0.00252476 0 0 0.000610064 69 364.68 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3355,11 +3448,17 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 									{ IPropertyMetaclass 
 										- _Name = "Slider";
 										- Properties = { IRPYRawContainer 
-											- size = 1;
+											- size = 2;
 											- value = 
 											{ IProperty 
 												- _Name = "Direction";
 												- _Value = "InOut";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "Name";
 												- _Type = Enum;
 												- _ExtraTypeInfo = "";
 											}
@@ -3393,7 +3492,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.00252476 0 0 0.000592634 72 251.66 ;
+					- m_transform = 0.00600116 0 0 0.000592634 68 252.66 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3492,7 +3591,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.00252476 0 0 0.000610064 74 358.68 ;
+					- m_transform = 0.00252476 0 0 0.000610064 425 368.68 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3572,7 +3671,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 415 94.1262 ;
+					- m_transform = 0.000126238 0 0 0.000113298 313 80.1262 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3651,7 +3750,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.00157312 0 0 0.000278887 179 84.311 ;
+					- m_transform = 0.00157312 0 0 0.000278887 88 69.311 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3731,7 +3830,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 367 162.485 ;
+					- m_transform = 0.000971062 0 0 0.00043576 430 145.485 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3813,7 +3912,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 368 271.485 ;
+					- m_transform = 0.000971062 0 0 0.00043576 210 146.485 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3842,6 +3941,77 @@ I-Logix-RPY-Archive version 8.5.2 Java 1471822
 						}
 					}
 					- m_csButtonCaption = "Stop engine";
+				}
+				{ CGIActiveX 
+					- _id = GUID 06190b73-30e9-4edc-afde-bd46285da662;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "DigitalDisplay";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 221;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "Engine.sbs";
+						- _subsystem = "Engine";
+						- _class = "FuelInjector";
+						- _name = "delayTime";
+						- _id = GUID 390f51b0-8f99-447b-9353-97218a103438;
+					}
+					- m_pParent = GUID 0d73dbad-725c-4c23-9b20-2d0c346d7705;
+					- m_name = { CGIText 
+						- m_str = "Delay Time";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.00139833 0 0 0.000278887 380 66.3107 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- m_csModelObjPath = "Engine.FuelInjector[0].delayTime";
+					- m_csName = "Delay Time";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "Engine.sbs";
+							- _subsystem = "Engine";
+							- _class = "";
+							- _name = "FuelInjector";
+							- _id = GUID 70013ed4-ccd3-4a2a-aacd-96140f1e0131;
+						}
+					}
 				}
 				
 				- m_access = 'Z';
